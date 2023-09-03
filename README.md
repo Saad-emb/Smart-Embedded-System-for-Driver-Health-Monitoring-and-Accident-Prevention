@@ -1,4 +1,4 @@
-# Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention# Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention 
+# Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention# 
 ## Introduction
 Road accidents are a major public health problem that can be caused by a variety of
 factors, including driver fatigue and health issues. As part of this project, we will
