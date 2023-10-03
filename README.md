@@ -17,7 +17,8 @@ innovative system.
 ## Overall Project Architecture:
 
 <p align="center">
-  <img src="https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/34829c2c-ed50-4e6f-a963-f528c3b5c070" alt="Image">
+  ![image](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/dd4f1ef4-7960-4332-bfac-70f7310cbb95)
+
 </p>
 
 The system uses a MAX30102 sensor to measure the driver's heart rate and oxygen
