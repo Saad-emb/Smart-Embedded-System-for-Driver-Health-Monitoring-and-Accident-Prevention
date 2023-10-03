@@ -44,7 +44,8 @@ In the first step of my implementation, I used the MAX30102 sensor for acquiring
 
 Subsequently, I established a loop to consistently update and retrieve data from the sensor. Within this loop, I extracted BPM and SpO2 values upon detecting a heartbeat. These values were then transmitted via the CAN frame with the address 0x7FF. Additionally, the data was displayed on the console terminal, providing real-time monitoring of the rhythm values.
 
--![image](https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/7361fc38-7f5f-4290-b57a-58afe9a2506b)
+![2](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/bb045eee-04d2-40cb-9e49-4a9ed38f00fd)
+
 
 ## 2nd step: Receiving abd decoding of the can frame in the raspberry card
 This step allowed to retrieve the CAN frames sent by the ESP32 microcontroller and
@@ -59,7 +60,8 @@ Finally,the decoded values (BPM and SpO2) is displayed in the terminal using the
 This step allows us to decode the data received from the CAN frame and display the
 corresponding values (BPM and SpO2) on the Raspberry Pi.
 
-![image](https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/d84e91b1-09a7-4341-a9d5-113469c31660)
+![3](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/f417bc6f-c7d3-4e29-a5ca-32068f84e845)
+
 
 ## 3rd step: Main program (fatigue detection and data acquisition via the mcp2515 with can bus)
 In this part of the code, i perform eye fatigue detection and data acquisition through
@@ -126,17 +128,19 @@ In the main loop, we get the position of the vehicle and we move the spectator
 camera to follow it. We receive the biometric data from the serial port and check if
 an emergency situation is detected by calling the `emergency_check()` function.
 
-![image](https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/9e685caa-af4a-4b0f-8f5c-ca9a3289f1c4)
+![5](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/c9c7f28f-e372-4ece-ab53-79a8f16a7147)
+
 
 If an emergency is detected, the car stops and the gybe signals are triggered.
 
-![image](https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/01b18df5-2e97-4c94-910c-275c3a269db8)
+![6](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/aff46395-8afc-4f49-8bb4-3f25b4946825)
+
 
 and display an emergency message and  sends an email using the
 and then we display an emergency message and we send an email using the
 send_email() function.send_email() function.
 
-![image](https://github.com/Saad-emb/-textbf-Smart-Embedded-System-for-Driver-Health-Monitoring-and-AccidentPrevention/assets/123195068/939a3e4f-8682-4167-b0b1-f97e7e7e9b35)
+![7](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/6e69ea68-2828-4557-8d74-171f06e9a7fa)
 
 ## Conclusion 
 
