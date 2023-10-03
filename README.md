@@ -17,7 +17,8 @@ innovative system.
 ## Overall Project Architecture:
 
 <p align="center">
-  ![image](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/dd4f1ef4-7960-4332-bfac-70f7310cbb95)
+  ![image](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/1407ffdf-1804-4dc6-a17d-4cb19e25d3e5)
+
 
 </p>
 
