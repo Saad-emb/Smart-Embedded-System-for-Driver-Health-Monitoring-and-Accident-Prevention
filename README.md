@@ -17,11 +17,10 @@ innovative system.
 ## Overall Project Architecture:
 
 <p align="center">
-  ![image](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/1407ffdf-1804-4dc6-a17d-4cb19e25d3e5)
 
+  ![1](https://github.com/Saad-emb/Smart-Embedded-System-for-Driver-Health-Monitoring-and-Accident-Prevention/assets/123195068/553ab703-22a7-4e8d-9429-cc4ce133859c)
 
 </p>
-
 The system uses a MAX30102 sensor to measure the driver's heart rate and oxygen
 saturation. The data captured by the sensor is then transmitted to the ESP32
 microcontroller via the I2C communication protocol. The ESP32 microcontroller is
